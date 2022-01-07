@@ -32,6 +32,10 @@ font-family: 'Cabin', sans-serif;
     height: 10px;
     border-radius: 50%;
     background: #000000;
+  
+    border-radius: 80px !important; 
+    height: 0.5px !important; 
+    margin-top: 5px
 }
 
 
