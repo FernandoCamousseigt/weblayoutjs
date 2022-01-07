@@ -1,0 +1,118 @@
+body{
+font-family: 'Cabin', sans-serif;
+}
+
+.header {
+  padding-top: 8rem;
+}
+.tiempo{
+    border-top: 1px solid #707070;
+}
+
+.dosbotones {
+        text-align: center;
+}
+.navbar-brand{
+    font-family: 'Lobster', cursive;
+    font-size: 2em;
+    width: 140;
+    height: 50;
+    text-align: center;
+}
+.nav-link{
+  font-family: 'Raleway', sans-serif;
+}
+
+.carousel-indicators {
+    bottom: -50px;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #000000;
+}
+
+
+.ingredientes{
+    font-weight: 400;
+    color: #373A3C;
+    font-size: 25px;
+}
+.recetas{
+    height: 20px;
+    color: #373A3C;
+    margin-top: 1em;
+    margin-bottom: 3em;
+    font-family: Cabin;
+    font-weight: 700;
+}
+      
+.textotitulo{
+    font-weight: 700;
+    color: #373A3C;
+}
+
+.card{
+    width: 22.5rem;
+    margin: 0.5em;
+}
+
+      
+.newsletter{
+    background: #dc3546;      
+}
+
+.newsletter .titulo {
+  font-family: 'Lobster', cursive;
+}
+
+.cambio{
+    font-family: Lobster;
+    font-weight: 400;
+    height: 60px;
+}
+      .letras{
+        font-size: 20px;
+      }
+
+      
+      .boton1{
+        margin-top: 1.2em;
+        border: 1px solid #dddddd;
+        font-family: Cabin;
+        font-weight: 400;
+      }
+      
+      .footer{
+        font-family: Lobster;
+        height: 4em;
+        color: #FFFFFF;
+        background: #373A3C;
+        padding-top: 1em;
+        padding-left: 1em;
+        padding-bottom: 1em;
+        padding-right: 1em;
+        text-align: center;
+        font-size: 2em;
+      }
+      
+      .textofinal{
+        padding-top: 10em;
+        padding-bottom: 10em;
+      }
+    
+      .ct1{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 5; 
+        -webkit-box-orient: vertical;
+      }
+
+      @media (max-width:544px){
+        .texto, .tiempo{
+          text-align: center;
+        }
+      }
